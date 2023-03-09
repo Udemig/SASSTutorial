@@ -1,0 +1,30 @@
+@import "colors";
+
+
+header{
+    background-color: $primaryColor;
+    padding: 10px;
+    nav{
+        background-color: aqua;
+        padding: 10px;
+        ul{
+            background-color: bisque;
+            padding: 10px;
+            display: flex;
+            list-style-type: none;
+            overflow-y: scroll;
+            li{
+                background-color: burlywood;
+                padding: 10px;
+                a{
+                    text-decoration: none;
+                    padding: 10px;
+                    &:hover{
+                        background-color: red;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}

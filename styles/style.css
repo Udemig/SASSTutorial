@@ -1,0 +1,155 @@
+header {
+  background-color: rgb(142, 142, 195);
+  padding: 10px;
+}
+header nav {
+  background-color: aqua;
+  padding: 10px;
+}
+header nav ul {
+  background-color: bisque;
+  padding: 10px;
+  display: flex;
+  list-style-type: none;
+  overflow-y: scroll;
+}
+header nav ul li {
+  background-color: burlywood;
+  padding: 10px;
+}
+header nav ul li a {
+  text-decoration: none;
+  padding: 10px;
+}
+header nav ul li a:hover {
+  background-color: red;
+  color: white;
+}
+
+body {
+  background-color: rgb(113, 113, 65);
+  color: #e7dbdb;
+}
+
+.ozel-div {
+  background-color: rgb(152, 7, 152);
+  color: #e7dbdb;
+  border: 4px red solid;
+  border-radius: 4px;
+  padding: 4px;
+  margin: 4px;
+}
+
+.ozel-div2 {
+  border: 5px blue solid;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  color: brown;
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.signup, .signin {
+  border: 2px red solid;
+  padding: 15px 20px;
+  text-align: center;
+  font-size: 19px;
+  cursor: pointer;
+  background-color: transparent;
+}
+.signup:hover, .signin:hover {
+  background-color: green;
+  color: white;
+  border: none;
+  transition: 2s;
+}
+
+.signup {
+  margin-left: 20px;
+  box-shadow: 0 0 10px gray;
+}
+
+.ozelp-1 {
+  background-color: antiquewhite;
+  color: red;
+  padding: 10px;
+  margin: 10px;
+}
+
+.ozelp-2 {
+  background-color: antiquewhite;
+  color: blue;
+  padding: 20px;
+  margin: 20px;
+}
+
+.ozelp-3 {
+  background-color: antiquewhite;
+  color: blue;
+  padding: 20px;
+  margin: 20px;
+}
+
+.ozelp-4 {
+  background-color: antiquewhite;
+  color: gold;
+}
+
+.ozelp-5 {
+  background-color: antiquewhite;
+  color: blue;
+  padding: 20px;
+  margin: 20px;
+}
+
+.ozelp-1 {
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.ozelp-2 {
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.ozelp-3 {
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.ozelp-4 {
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.ozelp-5 {
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.ozelp-5 {
+  box-shadow: 0 0 10px white;
+}
+.ozelp-5:hover {
+  box-shadow: 0 0 10px black;
+}
+
+.ozelp-3 {
+  box-shadow: 0 0 10px white;
+}
+.ozelp-3:hover {
+  box-shadow: 0 0 10px black;
+}
+
+.ozelp-4 {
+  box-shadow: 0 0 10px white;
+}
+.ozelp-4:hover {
+  box-shadow: 0 0 10px black;
+}/*# sourceMappingURL=style.css.map */
